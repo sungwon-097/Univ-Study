@@ -27,6 +27,8 @@ Grading
     H/W 메인 컴포넌트3 : CPU(Register, ALU, Central Unit), 메인메모리, 디스크드라이브
     S/W 측면으로 컴퓨터는 하나의 Instruction set 으로 정의 할 수 있는 Machine
         Instruction :  컴퓨터가 해독하여 수행할 수 있도록 설계된 명령어(2진수 표현)
-            컴퓨터를 제어 => CPU,       CPU를 제어 => CU
-            CU를 제어 => Instruction,  Instruction을 제어 => 프로그래머가 만든 프로그램에 의해
+            컴퓨터를 제어        => CPU,        
+            CPU를 제어          => CU,
+            CU를 제어           => Instruction,  
+            Instruction을 제어 => 프로그래머가 만든 프로그램에 의해
 ```
