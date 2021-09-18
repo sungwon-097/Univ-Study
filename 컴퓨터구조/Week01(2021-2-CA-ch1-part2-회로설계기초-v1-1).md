@@ -1,4 +1,4 @@
-# Week1(2021-2-CA-ch1-part2-회로설계기초-v1-1)
+# Week 01-1(2021-2-CA-ch1-part2-회로설계기초-v1-1)
 
 * Digital Computer
 ```

@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "g++.exe - 활성 파일 빌드 및 디버그",
+            "name": "gcc.exe - 활성 파일 빌드 및 디버그",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",

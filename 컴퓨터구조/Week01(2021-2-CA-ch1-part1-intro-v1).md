@@ -1,4 +1,4 @@
-# Week1-1 (2021-2-CA-ch1-part1-intro-final-v1)
+# Week 01-1 (2021-2-CA-ch1-part1-intro-final-v1)
 
 * 컴구조를 배워야 하는 이유
 ```
