@@ -19,5 +19,13 @@
 + Boolean Logic Gates
 ```
     스위치 -> 로직게이트 -> 디지털회로
-    AND, OR, INVERTOR 등
+    AND, OR, INVERTOR(NOT) 등
 ```
++ Logic Gate - Truth Table - Boolean Equation 
+
++ Gate 를 보고 Equation 을 도출 할 수 있는 연습
+    - 우선순위
+        1. ()
+        2. NOT
+        3. AND
+        4. OR

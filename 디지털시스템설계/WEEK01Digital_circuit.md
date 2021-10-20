@@ -18,7 +18,7 @@
 ```
     kilo (thousand, or 10^3), mega (million, or 10^6), 
     giga (billion, or10^9),tera (trillion, or 10^12), 
-    peta (1015), exa (10^18), zettta (10^21), yotta(10^24),
+    peta (1015), exa (10^18), zettta (10^21), yotta(10^24), 
 e.g., kilobyte, or KByte
 ```
 + Chapter Summary

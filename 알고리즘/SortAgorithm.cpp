@@ -13,7 +13,7 @@ void insertionSort (int arr[], int N); // 삽입정렬
 
 void bubbleSort(int l[], int N);       // 거품정렬
 
-void selectionSort(int l[], int N);     // 선택정렬
+void selectionSort(int l[], int N);    // 선택정렬
 
 void quickSort(int arr[], int l, int r);  // 퀵정렬
 int partition(int arr[], int l, int r, int x); //퀵정렬에서 devide
@@ -76,17 +76,17 @@ void bubbleSort(int l[], int N){
 void selectionSort(int l[], int N){ // i+1번째로 작은 값을 찾아서 교체. 앞에서부터 정렬
 
     for(int i = 0; i < N - 1 ; i ++ ){
-        int minidx=i;
+        int minidx=i; // 가장 작은 값의 인덱스를 찾음
         for(int j = i + 1 ; j < N; j ++ ){
 
             if(l[j] < l[minidx])
-                minidx=j;
+                minidx=j; // 최소값을 찾음
         }
-        swap(l[minidx], l[i]);
+        swap(l[minidx], l[i]); // 자리변경
     }
 }
 
-void swap(int *x, int *y){ // 메모리 bit연산으로 swap
+void swap(int *x, int *y){ // 메모리 XOR bit연산으로 swap
     *x=*x^*y;
     *y=*x^*y;
     *x=*x^*y;
@@ -124,10 +124,10 @@ void quickSort(int arr[], int l, int r) {
 void mergeSort(vector<int> arr, int l, int r) 
 { 
     if (l < r) {
-        int m = (l+r)/2; 
-        mergeSort(arr, l, m); 
-        mergeSort(arr, m + 1, r); 
-        merge(arr, l, m, r); 
+        int m = (l+r)/2; //중앙값 찾기
+        mergeSort(arr, l, m); // 왼쪽배열을 정렬
+        mergeSort(arr, m + 1, r); // 오른쪽 배열을 정렬
+        merge(arr, l, m, r); // 병합
     }
 }
 
@@ -138,33 +138,33 @@ void merge(vector<int> arr, int l, int m, int r)
     int n2 = r - m; 
 
     vector<int> L(n1), R(n2); 
-    for (i = 0; i < n1; i++) 
+    for (i = 0; i < n1; i++) // 왼쪽 배열을 선언및 초기화
         L[i] = arr[l + i]; 
 
-    for (j = 0; j < n2; j++) 
+    for (j = 0; j < n2; j++) // 오른쪽 ''
         R[j] = arr[m + 1 + j]; 
 
     i = 0; 
     j = 0; 
     k = l; 
 
-    while (i < n1 && j < n2) { 
-        if (L[i] <= R[j]) { 
+    while (i < n1 && j < n2) { // 유효한 index일 때 loop 수행 
+        if (L[i] <= R[j]) { // 나눠진 둘을 비교해 조건에 맞게 삽입
             arr[k] = L[i]; 
             i++; 
         } 
         else { 
             arr[k] = R[j]; 
             j++; 
-        } 
+        }
         k++; 
     } 
-    while (i < n1) { 
+    while (i < n1) { //i가 n1보다 작을 때(n2 탐색 종료) n1의 원소를 차례로 삽입
         arr[k] = L[i]; 
         i++; 
         k++; 
     } 
-    while (j < n2) { 
+    while (j < n2) { // j가 n2보다 2작을 때(n1 탐색 종료) n2의 원소를 차례로 삽입
         arr[k] = R[j]; 
         j++; 
         k++; 
@@ -190,10 +190,10 @@ int select(int arr[], int l, int r, int k)
 
 void countingSort(int array[], int n) {
     int count [ASIZE+1]; /* k is a MACRO constant */
-    for (int i=0; i<ASIZE+1; i++) 
+    for (int i=0; i<ASIZE+1; i++) //0으로 채움
         count[i] = 0;
 
-    for (int i=0; i<n; i++)
+    for (int i=0; i<n; i++) // direct addressing
         count[array[i]]++;
 
     for (int i=0, j=0; i<=ASIZE; i++) 
@@ -203,7 +203,7 @@ void countingSort(int array[], int n) {
             array[j] = i;
             j++;
             count[i]--;
-        }
+        }// 
     } 
 }
 
