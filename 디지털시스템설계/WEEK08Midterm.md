@@ -15,5 +15,5 @@
 6. 위의 과정과 함께 Karnaugh-Map을 설계
 
 ```
-전체적으로 Digital-Design-RTL 의 예제 내용 수준으로 출제. 과제만 막힘 없이 했다면 다 맞힐 수 있는 수준
+전체적으로 Digital-Design-RTL 의 예제 내용 수준으로 출제. K-map과 SoM/SoP개념 중요
 ```
