@@ -32,7 +32,7 @@ Tc: I
 ```
 (7) 순차회로에서 clock triggering에는 4 종류가 있다. 그중 positive edge triggering 방식을 설명하시오.
 ```
-
+Clock pulse가 1로 올라가는 순간 논리값이 1이 됨. 그렇지 않은 경우에는 0
 ```
 (8) k개의 stage를 가진 명령어 pipeline에서 clock cycle time=t, n개의 명령어를 실행한다 하자. pipeline사용한 경우가 pipeline을 사용하지 않은 경우 대비 speed up 효과를 n, k, t를 사용해 표현하시오. 만일 n이 아주 커지면 speed up 효과값은 얼마인가 ? 
 ```

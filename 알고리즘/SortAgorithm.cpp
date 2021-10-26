@@ -48,7 +48,7 @@ int main (void)
     return 0;
 }
 
-void insertionSort (int arr[], int N) 
+void insertionSort (int arr[], int N)
 {
     for (int i=1; i<N; i++) // key까지의 배열을 한 칸씩 늘려가며 정렬함. 정렬된 리스트의 크기가 
     {
@@ -94,7 +94,7 @@ void swap(int *x, int *y){ // 메모리 XOR bit연산으로 swap
 
 int partition(int arr[], int l, int r, int pivot) 
 { 
-    int i; 
+    int i;
     for (i = l ; i < r ; i++) 
         if (arr[i] == pivot) 
             break; 
@@ -151,7 +151,7 @@ void merge(vector<int> arr, int l, int m, int r)
     while (i < n1 && j < n2) { // 유효한 index일 때 loop 수행 
         if (L[i] <= R[j]) { // 나눠진 둘을 비교해 조건에 맞게 삽입
             arr[k] = L[i]; 
-            i++; 
+            i++;
         } 
         else { 
             arr[k] = R[j]; 
@@ -175,13 +175,12 @@ int select(int arr[], int l, int r, int k)
 {
     if (k >= 0 && k < r - l + 1)
     {
-        int n = r-l+1; // Number of elements in arr[l..r] 
-        int pivot = arr[l + rand() % n]; 
-        int pos = partition(arr, l, r, pivot); 
-// If position is same as k 
+        int n = r-l+1; // Number of elements in arr[l..r]
+        int pivot = arr[l + rand() % n]; // pivit을 random한 값으로 가져옴
+        int pos = partition(arr, l, r, pivot); // 나눠진 파티션의 iteration 을 가져옴
         if (pos-l == k) 
             return arr[pos]; 
-        if (pos-l > k) // If position is more, recur for left 
+        if (pos-l > k) // If position is more, recursive for left 
             return select(arr, l, pos-1, k); 
         else // Else recur for right subarray 
             return select(arr, pos+1, r, k-pos+l-1); 
@@ -189,11 +188,11 @@ int select(int arr[], int l, int r, int k)
 }
 
 void countingSort(int array[], int n) {
-    int count [ASIZE+1]; /* k is a MACRO constant */
-    for (int i=0; i<ASIZE+1; i++) //0으로 채움
+    int count [ASIZE+1]; 
+    for (int i=0; i<ASIZE+1; i++) 
         count[i] = 0;
 
-    for (int i=0; i<n; i++) // direct addressing
+    for (int i=0; i<n; i++)
         count[array[i]]++;
 
     for (int i=0, j=0; i<=ASIZE; i++) 
@@ -203,7 +202,7 @@ void countingSort(int array[], int n) {
             array[j] = i;
             j++;
             count[i]--;
-        }// 
+        }
     } 
 }
 
