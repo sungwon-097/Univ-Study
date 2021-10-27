@@ -21,7 +21,7 @@
 * long, pointer Data Type에서 64bit와 32bit architecture의 차이가 발생
 
 3. Bit Swap
-    - xor 연산으로 swap을 구현 가능
+>>    - xor 연산으로 swap을 구현 가능
 
 ```c
     void swap(int *x, int *y){
