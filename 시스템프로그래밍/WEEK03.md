@@ -38,6 +38,15 @@ Result:
 |-|-|-|
 |0|10001100|1101101101101|
 
+* Denormalized values
+
+|EXP|Frac|Values|ex|
+|-|-|-|-|
+|000...0| 000...0|Represents zero value|+0 and –0|
+|000...0|! 000...0|Numbers closest to 0.0|-|
+|111...1| 000...0|Represents value ¥ (infinity)|1.0 / 0.0 = −1.0 / −0.0 = +¥, 1.0 / −0.0 = −¥|
+|111...1|! 000...0|Not-a-Number (NaN)|sqrt(–1), ¥ − ¥, ¥  ́ 0|
+
 2. Round
     - Nearest Even 방식을 사용(default) : 가까운 2의 배수쪽으로 반올림
 
