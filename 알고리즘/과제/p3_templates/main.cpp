@@ -14,7 +14,7 @@ int main (void)
 {
     struct TreeNode* root;
     unsigned long long int answer;
-    root = s.buildTree("sample3.txt");
+    root = s.buildTree("sample2.txt");
     
     /* Run your codes */
     clock_t begin = clock();    
@@ -22,8 +22,6 @@ int main (void)
     clock_t end = clock();
 
     cout << answer << endl;
-    cout << fixed;
-    cout.precision(7);
     cout << "Elapsed time: " << double (end - begin)/CLOCKS_PER_SEC << " (s)" << endl;
 
     return 0;

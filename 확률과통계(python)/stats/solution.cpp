@@ -1,7 +1,7 @@
 #include <iostream>
+#include <vector>
 #include <fstream>
 #include <queue>
-#include <vector>
 #include "solution.h"
 
 using namespace std;
