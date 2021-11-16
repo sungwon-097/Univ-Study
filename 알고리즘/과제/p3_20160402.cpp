@@ -45,7 +45,6 @@ struct TreeNode* Solution::buildTree (string filename){
                     temp -> right = newNode('\0');
                 else     
                     temp -> right = newNode(file[i]);   // right가 비었을 때 node를 삽입
-                
             break;
             }
             else 
@@ -56,7 +55,7 @@ struct TreeNode* Solution::buildTree (string filename){
 }
 
 unsigned long long int getPathSum_memories(struct TreeNode *root, unsigned long long int route_Sum){
-    if (root == NULL)   
+    if (root == NULL)
         return 0;   // Tree가 비어있을 때 0을 반환
     else    
         route_Sum = route_Sum * 10 + root -> val;   // 각 노드의 값을 10^i 자리에 배치하여 경로를 더해줌
