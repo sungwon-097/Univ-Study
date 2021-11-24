@@ -5,8 +5,6 @@ char tmp;
 
 int main()
 {
-	// 1. create KVS
-	
 	kvs_t* kvs = open();
 	if(!kvs) {
 		printf("Failed to open kvs\n");
