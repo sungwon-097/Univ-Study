@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_cal_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_cal" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="41250001fs"></ZoomEndTime>
+      <Cursor1Time time="7900000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="126"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_cal/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cal/b" type="array">
+      <obj_property name="ElementShortName">b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cal/sel" type="array">
+      <obj_property name="ElementShortName">sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider117">
+      <obj_property name="label">20160402</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cal/c" type="logic">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cal/aGreaterb" type="logic">
+      <obj_property name="ElementShortName">aGreaterb</obj_property>
+      <obj_property name="ObjectShortName">aGreaterb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cal/aEqualb" type="logic">
+      <obj_property name="ElementShortName">aEqualb</obj_property>
+      <obj_property name="ObjectShortName">aEqualb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cal/aLessb" type="logic">
+      <obj_property name="ElementShortName">aLessb</obj_property>
+      <obj_property name="ObjectShortName">aLessb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cal/r" type="array">
+      <obj_property name="ElementShortName">r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r[7:0]</obj_property>
+   </wvobject>
+</wave_config>

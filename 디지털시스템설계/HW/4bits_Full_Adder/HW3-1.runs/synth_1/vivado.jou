@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov 28 04:26:30 2021
+# Process ID: 9256
+# Current directory: C:/Users/csw43/HW3-1/HW3-1.runs/synth_1
+# Command line: vivado.exe -log adder_subtractor_4bits.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adder_subtractor_4bits.tcl
+# Log file: C:/Users/csw43/HW3-1/HW3-1.runs/synth_1/adder_subtractor_4bits.vds
+# Journal file: C:/Users/csw43/HW3-1/HW3-1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source adder_subtractor_4bits.tcl -notrace
