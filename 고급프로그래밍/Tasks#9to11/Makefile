@@ -7,7 +7,6 @@ all:
 	g++ -o 11 11.cpp
 	./11
 
-
 clean:
 
 	rm 9 10 11
