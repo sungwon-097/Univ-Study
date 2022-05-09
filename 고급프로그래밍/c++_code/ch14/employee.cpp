@@ -18,7 +18,9 @@ namespace SavitchEmployees
     Employee::Employee(const string& theName, const string& theNumber)
        : name(theName), ssn(theNumber), netPay(0)
     {
-        //deliberately empty
+        setName(theName);
+        setSsn(theNumber);
+        setNetPay(0);
     }
 
     string Employee::getName( ) const

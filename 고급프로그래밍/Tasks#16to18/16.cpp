@@ -10,7 +10,7 @@ public:
     int getCoordinates_x() const;
     int getCoordinates_y() const;
 private:
-    int coordinates_x; 
+    int coordinates_x;
     int coordinates_y;
 };
 
