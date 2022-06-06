@@ -7,7 +7,6 @@ using namespace std;
 void inputInfo(map<string, string> container)
 {
 START:
-
     string id, name;
     map<string, string>::iterator iter;
 

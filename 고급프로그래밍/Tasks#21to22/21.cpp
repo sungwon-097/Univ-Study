@@ -44,14 +44,14 @@ class UnivHourlyEmployee : public HourlyEmployee
     {
     public:
         UnivHourlyEmployee( );
-        UnivHourlyEmployee(const string&  theName, const string&  theSsn, 
+        UnivHourlyEmployee(const string&  theName, const string&  theSsn,
                                 string univ, double wageRate, double hoursWorked);
         void setUniv(const string& theUniv);
         void printInfo();
         string getUniv() const;
     private:
         string univName;
-    }; 
+    };
 
     // main function
 int main(){
