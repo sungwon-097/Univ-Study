@@ -5,7 +5,8 @@ class Figure
 {
 
 public:
-    virtual void draw(){};
+    virtual void draw()=0;
+    virtual void b(){};
 };
 
 class Point
@@ -42,7 +43,7 @@ public:
         cout << "A rectangle from (" << x1 << ", " << y1;
         cout << ") to (" << x2 << ", " << y2 << ")\n";
     }
-
+//    void b(){}
 private:
     int x1, y1;
     int x2, y2;
@@ -63,7 +64,7 @@ public:
         cout << "A circle with the center of (" << x << ", ";
         cout << y << ") and the radius of " << radius << "\n";
     }
-
+    void b(){}
 private:
     int radius;
     int x, y;

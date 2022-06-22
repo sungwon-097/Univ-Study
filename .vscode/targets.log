@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Mon Jun  6 23:17:29 2022
+# Make data base, printed on Wed Jun 22 23:31:38 2022
 
 # Variables
 
@@ -40,11 +40,11 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/v5/y5ms4xx57c94rlq4lrn38vdh0000gn/T/vscode-ipc-ba632530-457c-4aa3-8ce3-b1edcdb13a65.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/v5/y5ms4xx57c94rlq4lrn38vdh0000gn/T/vscode-ipc-71abbad1-35bf-4555-ae16-90c159914d45.sock
 # environment
 VSCODE_CWD = /
 # environment
-PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/usr/local/share/dotnet:~/.dotnet/tools
+PATH = /Users/sungwon/opt/anaconda3/bin:/Users/sungwon/opt/anaconda3/condabin:/opt/homebrew/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/usr/local/share/dotnet:~/.dotnet/tools
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
@@ -54,9 +54,11 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.pRbf6oVqVZ/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Qaou2V2InR/Listeners
 # automatic
 %F = $(notdir $%)
+# environment
+CONDA_EXE = /Users/sungwon/opt/anaconda3/bin/conda
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -70,17 +72,21 @@ HOME = /Users/sungwon
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/sungwon/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+VSCODE_CODE_CACHE_PATH = /Users/sungwon/Library/Application Support/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
 # environment
 LOGNAME = sungwon
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
 # environment
 ZSH = /Users/sungwon/.oh-my-zsh
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
+# environment
+CONDA_DEFAULT_ENV = base
 # environment
 XPC_FLAGS = 0x0
 # default
@@ -99,6 +105,8 @@ USER = sungwon
 LESS = -R
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
 # default
 MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
 # default
@@ -108,7 +116,7 @@ TMPDIR = /var/folders/v5/y5ms4xx57c94rlq4lrn38vdh0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/sungwon/Library/Application Support/Code/1.67.2-main.sock
+VSCODE_IPC_HOOK = /Users/sungwon/Library/Application Support/Code/1.68.0-main.sock
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -116,7 +124,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.11892761.11892767
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.12698239.12698245
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -133,10 +141,14 @@ MAKEFILES :=
 PAGER = less
 # environment
 LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /Users/sungwon/opt/anaconda3/bin/python
 # automatic
 ^F = $(notdir $^)
 # default
 SUFFIXES := 
+# environment
+_CE_M = 
 # default
 .INCLUDE_DIRS = /usr/local/include
 # environment
@@ -144,11 +156,15 @@ MAKELEVEL := 0
 # environment
 AUTOJUMP_ERROR_PATH = /Users/sungwon/Library/autojump/errors.log
 # environment
-LANG = C
+CONDA_PREFIX = /Users/sungwon/opt/anaconda3
 # environment
-VSCODE_PID = 7796
+VSCODE_PID = 859
+# environment
+_CE_CONDA = 
+# environment
+LANG = C
 # variable set hash-table stats:
-# Load=68/1024=7%, Rehash=0, Collisions=1/89=1%
+# Load=76/1024=7%, Rehash=0, Collisions=2/97=2%
 
 # Pattern-specific Variable Values
 
@@ -200,9 +216,6 @@ makefile:
 #  Failed to be updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
- 
-make: *** No rule to make target `all'.  Stop.
-
 
 # Not a target:
 .DEFAULT:
@@ -233,6 +246,8 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Mon Jun  6 23:17:29 2022
+# Finished Make data base on Wed Jun 22 23:31:38 2022
 
  
+make: *** No rule to make target `all'.  Stop.
+
