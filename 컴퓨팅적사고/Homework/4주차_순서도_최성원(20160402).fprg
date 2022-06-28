@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="SSU"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-28 01:41:23 &#50724;&#54980;"/>
+        <attribute name="created" value="U1NVO0JNLTQ0OzIwMjItMDYtMjg7MDE6MjQ6Mzgg7Jik7ZuEOzEwNzM3NA=="/>
+        <attribute name="edited" value="U1NVO0JNLTQ0OzIwMjItMDYtMjg7MDE6NDE6MjMg7Jik7ZuEOzE7MTA3NDc1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="&#52636;&#49373;&#50672;&#46020;"/>
+            <assign variable="&#45208;&#51060;" expression="2022-&#52636;&#49373;&#50672;&#46020;+1"/>
+            <if expression="&#45208;&#51060; &lt; 8">
+                <then>
+                    <output expression="&#50612;&#47536;&#51060;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="&#45208;&#51060; &lt; 14">
+                        <then>
+                            <output expression="&#52488;&#46321;&#54617;&#49373;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="&#45208;&#51060; &lt; 17">
+                                <then>
+                                    <output expression="&#51473;&#54617;&#49373;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="&#45208;&#51060; &lt; 20">
+                                        <then>
+                                            <output expression="&#44256;&#46321;&#54617;&#49373;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="&#45208;&#51060; &lt; 27">
+                                                <then>
+                                                    <output expression="&#45824;&#54617;&#49373;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&#51649;&#51109;&#51064;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
