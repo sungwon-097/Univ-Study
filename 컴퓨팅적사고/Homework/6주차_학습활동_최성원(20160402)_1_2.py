@@ -7,6 +7,7 @@ print("1. f(x) = 3*x**2 + 5*x + 7")
 X = [15, 20, 25]
 for x in X:
     print("f(%d) = %d"% (x ,F(x)))
+    
 # 2. 교재 202쪽 6번 : 문제 요구사항에 따라 함수를 정의하고 호출하여 풀것
 
 def Area_of_triangle(base_len, height_len):
