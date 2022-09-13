@@ -15,7 +15,7 @@
 |      |          | [전기전자회로](/%EC%A0%84%EA%B8%B0%EC%A0%84%EC%9E%90%ED%9A%8C%EB%A1%9C/)                       |                              | Digital Circuit       |
 |      |          | [고급프로그래밍](/%EA%B3%A0%EA%B8%89%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/)            |                              | C++                   |
 |      |          | [선형대수](/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/)                                             |                              | Linear Algebra        |
-|      |          | 두드림(비교과활동)                                                                             |                              | React, ExpressJS, SQL |
+|      |          | [두드림](https://github.com/BluemeGit)(비교과활동)                                             |                              | React, ExpressJS, SQL |
 | 2022 | 여름학기 | [컴퓨팅적사고](/%EC%BB%B4%ED%93%A8%ED%8C%85%EC%A0%81%EC%82%AC%EA%B3%A0/)                       |                              | Python                |
 | 2022 | 3-2      | [웹프로그래밍](/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/)                       |                              | HTML, CSS, JS         |
 |      |          | 이산수학                                                                                       |                              |                       |
